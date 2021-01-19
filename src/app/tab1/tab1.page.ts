@@ -19,7 +19,7 @@ loadNews()
 {
 this.newsService.getNews("top-headlines?country=us").subscribe(news=>{
   this.articles=news;
-  console.log(this.articles)
+  console.log(this.articles);
 })
 }
 
